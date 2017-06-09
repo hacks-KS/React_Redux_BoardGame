@@ -1,6 +1,7 @@
-export function turn_change(squares) {
+export function turn_change(history, squares) {
   return {
     type: "TURN_CHANGE",
+    history: history,
     squares: squares
   };
 }
