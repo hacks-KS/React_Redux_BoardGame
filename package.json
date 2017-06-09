@@ -2,9 +2,10 @@
   "name": "React_Redux_BoardGame",
   "version": "1.0.0",
   "description": "react tutorial with redux",
-  "main": "webpack.config.js",
+  "main": "src/provider.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w"
   },
   "repository": {
     "type": "git",
